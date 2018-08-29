@@ -1,0 +1,51 @@
+body {
+  background-color: #0252b3
+}
+
+h1 {
+  color: #bc001f;
+  font-size: 50px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0252b3, 0 0 70px #0252b3, 0 0 80px #0252b3, 0 0 100px #0252b3, 0 0 150px #0252b3;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+
+#notes {
+  float: right;
+  width: 30%;
+  background: whitesmoke;
+}
+
+textarea,
+input {
+  display: block;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+input {
+  height: 36px;
+  font-size: 24px;
+  background-color: whitesmoke;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+p {
+  color: whitesmoke;
+}
